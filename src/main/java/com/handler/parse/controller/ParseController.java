@@ -1,8 +1,8 @@
-package com.handler.controller;
+package com.handler.parse.controller;
 
-import com.handler.dao.ParseRequest;
-import com.handler.dao.ParseResponse;
-import com.handler.service.ParseService;
+import com.handler.parse.dao.ParseRequest;
+import com.handler.parse.dao.ParseResponse;
+import com.handler.parse.service.ParseService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;

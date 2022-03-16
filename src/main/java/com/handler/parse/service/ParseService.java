@@ -1,7 +1,7 @@
-package com.handler.service;
+package com.handler.parse.service;
 
-import com.handler.dao.ParseRequest;
-import com.handler.dao.ParseResponse;
+import com.handler.parse.dao.ParseRequest;
+import com.handler.parse.dao.ParseResponse;
 import org.springframework.stereotype.Service;
 
 @Service
