@@ -1,4 +1,4 @@
-package com.handler.dao;
+package com.handler.parse.dao;
 
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
