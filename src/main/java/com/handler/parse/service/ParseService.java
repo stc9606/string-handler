@@ -5,10 +5,8 @@ import com.handler.parse.dao.ParseRequest;
 import com.handler.parse.dao.ParseResponse;
 import com.handler.parse.util.Arranger;
 import com.handler.parse.util.Interleaver;
-import com.handler.parse.util.Separator;
 import com.handler.parse.util.UrlConnector;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -26,6 +24,6 @@ public class ParseService {
         final String interleavedText = interleaver.interleave(rearrange);
         OutputUnit outputUnit = new OutputUnit(interleavedText, request.getUnitCount());
 
-        return null;
+        return new ParseResponse(outputUnit);
     }
 }
