@@ -8,14 +8,14 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ExposureTypeTest  {
 
-    @DisplayName("Remove_Html Type is Tag Delete")
+    @DisplayName("REMOVE_HTML type removes all HTML tags")
     @Test
     void removeHtml() {
         final String result = ExposureType.REMOVE_HTML.getExposedHtml("<div>abc</div>");
         Assertions.assertThat(result).isEqualTo("abc");
     }
 
-    @DisplayName("All_Text Type is Get All Text")
+    @DisplayName("ALL_TEXT type gets all the text")
     @Test
     void allText() {
         final String result = ExposureType.ALL_TEXT.getExposedHtml("<div>abc</div>");
