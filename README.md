@@ -1,4 +1,21 @@
-# [스터디 과제] URL Parsing 후 Data 가공하기
+# [스터디 과제] URL 파싱 후 데이터 가공 
+
+### 프로젝트 실행 방법
+
+``` java
+1. git clone https://github.com/stc9606/string-handler.git
+
+2. ./gradlew bootRun or ./gradlew build
+
+3. java -jar ./build/libs/dataprocessor-0.0.1-SNAPSHOT.jar
+``` 
+
+
+### Swagger
+http://localhost:8080/swagger-ui/index.html
+
+
+### 요구 사항
 
 * URL을 Request에 담아서 전달하면 해당 URL 안에 있는 모든 HTML 소스를 긁어온다.
   * 어떤 URL이든 상관 없다.
@@ -29,15 +46,23 @@
     * 나머지: 'b3'
 
 
-# 과제 중점
+
+### 과제 중점
 
 * git issue로 등록하여 issue별로 commit하기
 * 기능별로 테스트코드 작성
 * 노출 유형이 추가되는 경우를 생각하기 (요구사항 추가)
 * 라이브러리 선택 이유 정리하기
 * Swagger로 테스트
-* 스프링 DI 방법, @Transactional 활용 등
+* 스프링 DI 방법, @Transactional 활용 등. 
 
+
+### 개발 도구
+* Java8
+* Spring Boot 2.6.4
+* Junit5
+* Jsoup
+* Swagger
 
 
   
